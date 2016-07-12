@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It allowed me to focus on only the lines that had differences which
+    saved time and effort.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If attempts were made in the past to add enhancements or improvements
+    that failed, holding on to them allows me to review them in the future
+    if I want or need to try again. Reviewing them helps make sure that I
+    don't attempt the same thing that already failed.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    When I manually save a version of code, I know why I'm choosing to save it and can annotate the commit with a meaningful description.
+    The downside to doing it manually is that I'm relying on myself to 
+    remember to commit at a good, logical point.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    A version control system that was designed for tracking code development, like Git, would expect multiple files to be related to and dependent on one another. In order to successfully compile, all of the correct versions of those files would be required. Commiting a snapshot of the current versions of all related files at once helps to maintain that goal. The assumption is, of course, that a commit is done after successfully compiling the source files. A version control system that wasn't designed specifically for tracking source code, such as Google Docs, has no reason to assume that specific versions of multiple files must be tracked together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I can use git log to locate a specfic change that I'm interested in and git diff to view exactly what was changed. Piping (|) the output of git log to grep -A 5 -B 5 "search phrase" will allow me to locate a particular commit faster.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Knowing that git has saved a copy of the code before I change it and that I can always go back to it by doing a checkout means I don't have to worry about breaking anything, because the working version can be easily restored.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use it to keep track of versions of my code that I write while working on projects for other Udacity courses.  After that, I plan to list it on my resume when I apply for jobs at companies that use Git.
