@@ -14,6 +14,7 @@ organized? How would branches help?
 If I want to try adding an enhancement or making something work differently and I want to see how people like it before making it a part of the main master branch of code, I can use a separate branch to try it out first. I can also use a branch to try a fix to a bug and test it out before making it part of the main branch.
 
 How do the diagrams help you visualize the branch structure?
+The diagrams visually show the point at which each branch was started, and therefore it is easy to see which changes were included in a particular branch and which weren't.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
