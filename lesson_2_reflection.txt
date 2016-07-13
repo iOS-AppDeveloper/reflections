@@ -11,6 +11,7 @@ You can run the git diff --staging command to check all of the currently staged 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+If I want to try adding an enhancement or making something work differently and I want to see how people like it before making it a part of the main master branch of code, I can use a separate branch to try it out first. I can also use a branch to try a fix to a bug and test it out before making it part of the main branch.
 
 How do the diagrams help you visualize the branch structure?
 
