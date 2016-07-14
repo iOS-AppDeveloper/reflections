@@ -18,6 +18,7 @@ The diagrams visually show the point at which each branch was started, and there
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+When two branches are merged together, all the changes made in both branches from their last common commit are merged into the currently checked out branch as one merge commit that is added at the tip. Because the changes from different branches were merged, the merge commit has the previous tips of those branches as parents, so the merge commit points back to them in the diagram. The merge commit also becomes the new branch tip for the currently checked out branch that the changes were merged into. The merge commit also becomes the HEAD of the currently checked out branch, i.e., the merge commit becomes the currently checked out commit.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
