@@ -33,7 +33,11 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    A local copy of the last known state of the remote enables you to view any changes
+    that haven't been merged yet with your local branch(es).  You can then decide when
+    would be the best time to add those changes to your local repository.  This could 
+    be especially helpful if there are conflicts and you don't want to or have time to
+    deal with them immediately.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
