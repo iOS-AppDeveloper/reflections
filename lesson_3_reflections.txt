@@ -42,7 +42,19 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I might try to persuade collaborators to use some other software- or web-based collaboration
+    tool.  Without such a tool, I think we would need at least some central location to store
+    and view the latest summation of our individual contributions.  We would probably need to
+    meet together regularly in a conference call to more efficiently discuss changes, especially
+    if the number of collaborators is more than just a few people.  Someone would probably need
+    to be desigmated as being responsible for maintaining the latest state of the project by
+    incorporating all individual contributor's changes.  This would place a potentially large
+    burden on one person.  Getting everyone together at the same time could potentially be 
+    efficient in terms of discussing and getting changes approved, but could actually delay
+    progress until a time that is convenient for everyone to get together.  In the long run, it
+    would be better to use a collaboration tool so that individual contributors can work on the
+    project at any time each person chooses, and each individual can incorporate his own change
+    into the project once it is approved by other contributors.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
